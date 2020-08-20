@@ -3,7 +3,7 @@ from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
 
 outputs = {}  # **comment out on WayScript**
-api_key = ''
+api_key = '' # API key goes here
 
 
 def get_crypto_data(symbol):
